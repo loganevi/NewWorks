@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <center><img src="images/Nigeria.jpg" alt="Nigeria Logo" width="200" height="200"></center>
+        <label for="avatar">Choose a Profile Picture</label>   
+         <input type="file" name="avatar" id="avatar" accept="image/jpeg"/>
+    <center><h1>Event Registration Form PDF</h1></center>
+    <p><h3>Event Details</h3></p>
+
+    <ul>
+       <li> <label for="name">Event Name</label>
+        <input type="text" id="name" placeholder="Event Name"></li><br>
+        <li> <label for="Date"> Event Date</label>
+            <input type="date" id="Date" placeholder="Event Date"></li><br>
+        <li><label for="Venue">Event Venue</label>
+        <input type="Venue" name="Event Venue" id="Event Venue" placeholder="Event Venue"></li><br>   
+       <li><label for="Time">Start Time</label>
+    <input type="time" id="Start Time" placeholder="Start Time"></li><br>
+    <li><label for="time">End Time</label>
+    <input type="time" id="End Time" placeholder="End Time"></li><br>
+    </ul>
+    <p><h3>Participant Information</h3></p>
+    <ul>
+        <li><label for="name">Full Name</label>
+        <input type="text" name="Full Name" id="name" placeholder="Full Name"></li><br>
+    <li><label for="">Contact Number</label>
+    <input type="text" name="Contact Number" id="text" placeholder="Contact Number"></li><br>
+<li><label for="email">Email Address</label>
+<input type="email" id="email" placeholder="Email Address"></li><br>
+<li><label for="text">Organization (If applicable)</label>
+<input type="text" name="Organization" id="text" placeholder="Organization (If applicable)"></li><br>
+<li><label for="Address">Address</label>
+<input type="Address" name="Address" id="Address" placeholder="Address"></li><br>
+    </ul>
+<p><h3>Registration Type (Please select one): </h3></p>
+<label for=""><input type="radio" name="1" id="Individual" >Individual</label><br>
+<label for=""><input type="radio" name="1" id="Group">Group</label><br>
+<label for=""><input type="radio" name="1" id="VIP">VIP</label><br>
+<label for=""><input type="radio" name="1" id="Sponsor">Sponsor</label><br>
+<p><h3>Preferences & Requests</h3></p>
+<ul>
+    <li>Preferred Session (If applicable):</li>
+    <label for=""><input type="checkbox" name="2" id="Morning">Morning</label><br>
+    <label for=""><input type="checkbox" name="2" id="Afternoon">Afternoon</label><br>
+    <label for=""><input type="checkbox" name="2" id="Evening">Evening</label><br><br>
+    <li>Dietary Requirements:</li>
+    <label for=""><input type="checkbox" name="3" id="Vegetarian">Vegetarin</label><br>
+    <label for=""><input type="checkbox" name="3" id="Vegan">Vegan</label><br>
+<fieldset>
+    <legend>Preferred Session (If applicable)</legend>
+    <div>
+        <input type="checkbox" name="2" id="Morning"/>
+        <label for="Morning">Morning</label>
+    </div>
+    <div>
+        <input type="checkbox" name="2" id="Afternoon"/>
+        <label for="Afternoon">Afternoon</label>
+    </div>
+    <div>
+        <input type="checkbox" name="2" id="Evening" />
+        <label for="Evening">Evening</label>
+    </div>
+</fieldset>
+<fieldset>
+    <legend>Dietary Requirements:</legend>
+    <div>
+        <input type="checkbox" name="3" id="Vegetarian"/>
+        <label for="Vegetarian">Vegeterian</label>
+    </div>
+    <div>
+        <input type="checkbox" name="3" id="Vegan"/>
+        <label for="Vegan">Vegan</label>
+    </div>
+</fieldset>
+</ul>
+<p><h3>State Identification</h3></p>
+<label for="L.G.A">Choose your State</label>
+<select name="States" id="States">
+    <option value="Abia">Abia</option>
+    <option value="Adamawa">Adamawa</option>
+    <option value="Akwa Ibom">Akwa Ibom</option>
+    <option value="Anambra">Anambra</option>
+    <option value="Bauchi">Bauchi</option>
+    <option value="Bayelsa">Bayelsa</option>
+    <option value="Benue">Benue</option>
+    <option value="Borno">Borno</option>
+    <option value="Cross River">Cross River</option>
+    <option value="Delta">Delta</option>
+    <option value="Ebonyi">Ebonyi</option>
+    <option value="Edo">Edo</option>
+    <option value="Ekiti">Ekiti</option>
+    <option value="Enugu">Enugu</option>
+    <option value="Gombe">Gombe</option>
+    <option value="Imo">Imo</option>
+    <option value="Jigawa">Jigawa</option>
+    <option value="Kaduna">Kaduna</option>
+    <option value="Kano">Kano</option>
+    <option value="Katsina">Katsina</option>
+    <option value="Kebbi">Kebbi</option>
+    <option value="Kogi">Kogi</option>
+    <option value="Kwara">Kwara</option>
+    <option value="Lagos">Lagos</option>
+    <option value="Nassarawa">Nassarawa</option>
+    <option value="Niger">Niger</option>
+    <option value="Ogun">Ogun</option>
+    <option value="Ondo">Ondo</option>
+    <option value="Osun">Osun</option>
+    <option value="Oyo">Oyo</option>
+    <option value="Plateau">Plateau</option>
+    <option value="Rivers">Rivers</option>
+    <option value="Sokoto">Sokoto</option>
+    <option value="Taraba">Taraba</option>
+    <option value="Yobe">Yobe</option>
+    <option value="Zamfara">Zamfara</option>
+    <option value="F.C.T">F.C.T</option>
+</select><br>
+<label for="file"><input type="file" id="file" multiple accept=".doc">Upload your documents</label><br>
+
+<p style="text-align: right;"><i>Copyright</i> <small>&copy;</small> Moses Evinemi</p>
+<label for="submit"></label>
+<input type="submit" id="submit"><br>
+<label for="reset"></label>
+<input type="reset" id="reset">
+</form>     
+<a href="index.html">Gallary</a>
+</body>
+</html>
